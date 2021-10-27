@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MaxMovers</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/venobox/venobox/venobox.css" type="text/css" media="screen" />
+
+
+    <link rel="stylesheet" href="vendor/vendor/venobox/venobox.css">
+    <link rel="stylesheet" href="vendor/vendor/slick/slick.css">
+    <link rel="stylesheet" href="vendor/vendor/slick/slick-theme.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="resource/css/style.css">
+   <link rel="stylesheet" href="resource/css/mediaquery.css">
+
+
+    
+
+
+</head>
+<body>
+   
+<div class="stictyBar">
+  <div class="container-fluid bg-dark logo_maincover">
+
+    <div class="cover">
+      <a class="logo_text " href="#">
+        Envato Market
+      </a>
+    </div>
+    <div class="">
+      <button class="button btn btn-success">
+        Buy Now
+      </button>
+    </div>
+
+  </div>
+
+  
+
+
+  <!-- hide_show_Nav Start -->
+  <div class="collapse " id="navbarToggleExternalContent">
+    <div class="bg-dark ">
+      
+        <div class=" contact_main_cover p-2 p-lg-0">
+          <div class="col">
+            <div class="row ">
+              <div class="col-12 col-md-12 col-lg-12 col-xl-8">
+                
+                  <div class="contact_control">
+                    <div class="contact_cover d-inline-block ">
+                      <i class='bx bx-phone-call contact_cover_i hover'></i>
+                      <span class="contact_cover_text hover">+959957585408</span>
+                    </div>
+                    <div class="contact_cover d-inline-block ">
+                      <i class='bx bx-mail-send contact_cover_i hover' ></i>
+                      <span class="contact_cover_text hover">info@maxmovers.com</span>
+                    </div>
+                  
+                  
+                    <div class="contact_cover d-inline-block ">
+                      <i class='bx bx-time-five contact_cover_i hover'></i>
+                      <span class="contact_cover_text hover">Monday - Saturday 9:00 - 18:00</span>
+                    </div>
+                  </div>
+                
+              </div>
+              <div class="col-12 col-md-12 col-lg-12 col-xl-4">
+                <div class="contact_control">
+                  <i class='bx bxl-facebook  contact_social hover' ></i>
+                <i class='bx bxl-twitter contact_social hover'></i>
+                <i class='bx bxl-telegram contact_social hover' ></i>
+                <i class='bx bxl-instagram contact_social hover' ></i>
+                <i class='bx bxl-linkedin contact_social hover' ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+<!-- hide_show_Nav End -->
+
+<!-- /* Navbar Start */ -->
+ 
+
+<div class="navbar navbar-dark dd shadow-sm">
+  
+    <nav class=" js--nav">
+      <div class="navbar">
+      
+        <div class="bar_menu">
+          <i class='bx bx-menu'></i>
+        </div>
+      
+        <div class="logo_dis">
+          <img class="logo_dis_img" src="resource/img/move_logo.png" alt="">
+        </div>
+      
+        <div class="navbar_link">
+          <ul class="links">
+            <li class="links_li links_li1 more hover1">
+              <a class="  links_li_a" href="#">Home</a>
+              <ul class="sub_link ">
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Home1</a></li>
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Home2</a></li>
+      
+              </ul>
+            </li>
+            <li class="links_li links_li2 hover1"><a class=" links_li_a" href="#">About Us</a></li>
+            <li class="links_li links_li3 more hover1">
+              <a class=" links_li_a" href="#">Service</a>
+              <ul class="sub_link">
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Service Single</a></li>
+              </ul>
+            </li>
+            <li class="links_li links_li4 more hover1">
+              <a class=" links_li_a" href="#">Pages</a>
+              <ul class="sub_link">
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">404</a></li>
+              </ul>
+            </li>
+            <li class="links_li links_li5 more hover1">
+              <a class=" links_li_a" href="#">Gallery</a>
+              <ul class="sub_link">
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Gallery Single</a></li>
+              </ul>
+            </li>
+            <li class="links_li links_li6 more hover1">
+              <a class=" links_li_a" href="#">Blog</a>
+              <ul class="sub_link">
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Blog</a></li>
+                <li class="sub_link_li"><a class="sub_link_li_a" href="#">Blog Post</a></li>
+      
+              </ul>
+            </li>
+      
+          </ul>
+          
+        </div>
+
+        
+
+        <div class="navScover">
+          <span class=" contact_text hover2 pt-1 px-2 " data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"><i class='bx bxs-contact contact_icon' ></i></span>
+          <div class="search_box d-inline-block">
+            <i class='bx bx-search-alt navScover_search' ></i>
+          </div>
+          
+        </div>
+        
+      </div>
+      </nav>
+      
+    
+  </div>
+</div>
+
+  <!-- /* Navbar End */ -->
+
+  <!-- Mobile Menu Start -->
+  <div class="moble_menu_cover">
+    <div class="navbar_mobile_link">
+      <ul class="mobile_mainul animate__animated animate__backInDown">
+        <li class="mobile_main_li mobile_main_li_home  ">
+          <a class="  mobile_main_li_a mobile_main_li_a_home hover2" href="#">Home <i class='bx bxs-chevron-down home'></i></a>
+          <ul class="mobile_menu mobile_menu_home">
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Home1</a></li>
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Home2</a></li>
+  
+          </ul>
+        </li>
+        <li class="mobile_main_li"><a class=" mobile_main_li_a hover2" href="#">About Us</a></li>
+
+        <li class="mobile_main_li mobile_main_li_service ">
+          <a class=" mobile_main_li_a hover2 mobile_main_li_a_service" href="#">Service <i class='bx bxs-chevron-down service'></i></a>
+          <ul class="mobile_menu mobile_menu_service ">
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Service Single</a></li>
+          </ul>
+        </li>
+        <li class="mobile_main_li mobile_main_li_page ">
+          <a class=" mobile_main_li_a hover2 mobile_main_li_a_page" href="#">Pages <i class='bx bxs-chevron-down page'></i></a>
+          <ul class="mobile_menu mobile_menu_page">
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">404</a></li>
+          </ul>
+        </li>
+        <li class="mobile_main_li mobile_main_li_gallery ">
+          <a class=" mobile_main_li_a hover2 mobile_main_li_a_gallery" href="#">Gallery <i class='bx bxs-chevron-down gallery'></i></a>
+          <ul class="mobile_menu mobile_menu_gallery">
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Gallery Single</a></li>
+          </ul>
+        </li>
+        <li class="mobile_main_li mobile_main_li_blog ">
+          <a class=" mobile_main_li_a hover2 mobile_main_li_a_blog" href="#">Blog <i class='bx bxs-chevron-down blog'></i></a>
+          <ul class="mobile_menu mobile_menu_blog">
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Blog</a></li>
+            <li class="mobile_menu_li"><a class="mobile_menu_li_a" href="#">Blog Post</a></li>
+  
+          </ul>
+        </li>
+  
+      </ul>
+      
+    </div>
+
+  </div>
+
+
+<!-- Mobile Menu End -->
+
+  <!-- curosel start -->
+  <!-- <div class="curosel">
+    <div class="single_cover">
+      <div class="imgcover">
+      <img class="imgcover_img img-fluid" src="resource/img/curosel1.jpg" alt="">
+      </div>
+      <div class="centerbox d-none">
+        <h3 class="centerbox_h2 wow  animate__shakeY">Ready to Plan Your Next <span class="text-warning">Move?</span></h3>
+        <p class="centerbox_p wow animate__fadeInDown">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sequi voluptatibus minus officia magni cupiditate repellendus tenetur iste unde consectetur? </p>
+        <div class="centerbox_btncover">
+          <button class="btn btn-sm btn-primary  text-black bold me-2 wow animate__delay-1s  animate__fadeInLeft">Get Start</button>
+          <br class="d-block d-md-none">
+          <br class="d-block d-md-none">
+
+          <button class="btn btn-sm btn-outline-warning text-black wow animate__delay-1s animate__fadeInRight">Read More</button>
+
+        </div>
+      </div>
+    </div>
+    <div class="single_cover">
+      <div class="imgcover">
+      <img class="imgcover_img img-fluid" src="resource/img/curosel2.jpg" alt="">
+      </div>
+      <div class="centerbox d-none">
+        <h3 class="centerbox_h2 wow  animate__shakeY ">Ready to Plan Your Next <span class="text-warning">Move?</span></h3>
+        <p class="centerbox_p wow animate__fadeInDown ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sequi voluptatibus minus officia magni cupiditate repellendus tenetur iste unde consectetur? </p>
+        <div class="centerbox_btncover">
+          <button class="btn btn-sm btn-primary text-black bold me-2 wow animate__delay-1s  animate__fadeInLeft  ">Get Start</button>
+          <button class="btn btn-sm btn-outline-warning text-black wow animate__delay-1s animate__fadeInRight  ">Read More</button>
+
+        </div>
+      </div>
+    </div>
+    <div class="single_cover">
+      <div class="imgcover">
+      <img class="imgcover_img img-fluid" src="resource/img/curosel3.jpg" alt="">
+      </div>
+      <div class="centerbox d-none">
+        <h3 class="centerbox_h2 wow  animate__shakeY">Ready to Plan Your Next <span class="text-warning">Move?</span></h3>
+        <p class="centerbox_p wow animate__fadeInDown">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio sequi voluptatibus minus officia magni cupiditate repellendus tenetur iste unde consectetur? </p>
+        <div class="centerbox_btncover">
+          <button class="btn btn-sm btn-primary text-black bold me-2 wow animate__delay-1s  animate__fadeInLeft">Get Start</button>
+          <button class="btn btn-sm btn-outline-warning text-black wow animate__delay-1s animate__fadeInRight">Read More</button>
+
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- curosel End -->
+  
+ <!-- About_Section Start -->
+
+ <div class="about_main_cover">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-5">
+              <img class="img-fluid p-0 p-lg-5" src="resource/img/about.png" alt="">
+             </div>
+
+             <div class="col-12 col-md-12 col-lg-7 mt-5 mt-md-0">
+               <div class="about_contact">
+                 <div class="line_cover">
+                   <div class="line"></div><p class="line_para text-black-50">About</p>
+                 </div>
+
+                 <div class="title_cover">
+                  <h1 class="title_cover_h1 ">Welcome to Max <span class="text-primary">Movers</span></h1>
+                  <p class="tite_cover_para text-black-50 mb-4">
+                  Now were up in the big leagues getting' our turn at bat. And when the odds are against him and their dangers work to do. 
+                  </p>
+                </div>
+
+                <div class="some_links">
+                  <p class="some_links_para">Some Our <span class="text-warning">Sincerity,</span></p>
+                  <ul class="some_links_ul">
+                    <li class="some_link_li py-2 text-black"> <i class='bx bx-check-double text-warning'></i> Our Works Are Doing Very Fast.</li>
+                    <li class="some_link_li py-2 text-black"> <i class='bx bx-check-double text-warning'></i> Why do we always come here I well never know.</li>
+                    <li class="some_link_li py-2 text-black"> <i class='bx bx-check-double text-warning'></i> There ain't nothin' wrong with that The ship.</li>
+                    <li class="some_link_li py-2 text-black"> <i class='bx bx-check-double text-warning'></i> These Happy Days are our Happy Days.</li>
+                  </ul>
+
+                  <button class="btn btn-sm btn-outline-primary px-1 px-md-3 ">Read More</button>
+                </div>
+                 
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+
+<!-- About_Section End -->
+
+ <!-- Container_Photo Start -->
+  <div class="contain">
+    <div class="con_cover text-center ">
+      <h1 class="con_cover_h1 text-white">The Great <span class="text-warning">Offers</span> Available Only For <span class="text-warning">Two Days</span>. Hurry Up!</h1>
+      <p class="con_cover_para  my-3 mt-md-4 mb-md-5 ">No one you see is smarter than he. I have always wanted to have a neighbor just like you. I've always wanted to boys Wouldn't change if they could. Fightin' the system like a true modern day Robin Hood</p>
+      <button class="btn btn-sm btn-outline-warning px-1 px-md-3 ">See Offer</button>
+    </div>
+  </div>
+<!-- Container_Photo End -->
+
+<!-- services Start -->
+<div class="service_cover bg-light">
+  <div class="container">
+    <div class="row ">
+      <div class="col-12 col-lg-4 mb-5 mb-lg-0 ">
+        <div class="line_cover">
+          <div class="line"></div><p class="line_para text-black-50">Our Services</p>
+        </div>
+        
+        <div class="title_cover">
+          <h1 class="title_cover_h1 mb-4">What <span class="text-primary">Max Movers</span> Do.</h1>
+          <p class="tite_cover_para  mb-4">
+            Movin' on up to the east side. We finally got a piece of the pie. Fleeing from s the Cylon tyrany the last Battlestar - Galactica - leads a rainothin' wrong with that.
+           
+          </p >
+          <p class="tite_cover_para  mb-3"> air of gold theone in curls.; As long as we live its you and me baby. T There ain't nothin' wrong with that. It's a beautiful day in this neighborhood. </p>
+          <button class="btn btn-sm btn-outline-primary px-1 px-md-2 ">Read More</button>
+          
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-8  ">
+        <div class="row row-cols-1 row-cols-lg-auto row-cols-xl-3  ">
+          <div class="col mb-5 mb-lg-5 mb-xl-0">
+            <div class="card border-0 shadow-none" >
+              <img src="resource/img/do1.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card_body_h6">Auto Transport</h6>
+                <p class="card-text card_body_para">Rong with that. All of them had hair of gold like their mother the way of san taht can be easily.</p>
+                <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col mb-5 mb-lg-5 mb-xl-0">
+            <div class="card border-0 shadow-none" >
+              <img src="resource/img/do2.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body">
+                <h6 class="card_body_h6">moving & storage</h6>
+                <p class="card-text card_body_para">Rong with that. All of them had hair of gold like their mother the way of san taht can be easily.</p>
+                <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="card border-0 shadow-none" >
+              <img src="resource/img/do3.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="card-body ">
+                <h6 class="card_body_h6 ">packing & unpacking</h6>
+                <p class="card-text card_body_para">Rong with that. All of them had hair of gold like their mother the way of san taht can be easily.</p>
+                <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- services End -->
+
+  
+<!-- Our Works Start -->
+<div class="work_cover">
+  <div class="container">
+    <div class="col-12 col-md-12 col-lg-6">
+      <div class="line_cover">
+        <div class="line"></div><p class="line_para text-black-50">Our Works</p>
+      </div>
+      
+      <div class="title_cover">
+        <h1 class="title_cover_h1 mb-4">What <span class="text-primary">Max Movers</span> Done.</h1>          
+      </div>
+    </div>
+                
+          <div class="work_links_cover">
+            <ul class="links_cover_ul ">
+              <li class="links_cover_li hover active1">All</li>
+              <li class="links_cover_li hover">kitchen</li>
+              <li class="links_cover_li hover">living room</li>
+              <li class="links_cover_li hover">bathroom</li>
+              <li class="links_cover_li hover">hallway</li>
+              <li class="links_cover_li hover">nursery</li>
+            </ul>
+          </div>
+        <div class="row row-cols-1 row-cols-md-2 mb-4 " >
+          <div class="col mb-2 mb-md-0">
+            <a class="venobox"  data-gall="myGallery" href="resource/img/done1.jpg"> <img src="resource/img/done1.jpg" class="img-fluid" alt=""></a>
+          </div>
+          <div class="col ">
+            <a class="venobox"  data-gall="myGallery" href="resource/img/done2.jpg"> <img src="resource/img/done2.jpg" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2">
+          <div class="col mb-2 mb-md-0">
+            <a class="venobox"  data-gall="myGallery" href="resource/img/done3.jpg"> <img src="resource/img/done3.jpg" class="img-fluid" alt=""></a>
+          </div>
+          <div class="col ">
+            <a class="venobox"  data-gall="myGallery" href="resource/img/done4.jpg"> <img src="resource/img/done4.jpg" class="img-fluid" alt=""></a>
+          </div>
+        </div>
+  </div>
+</div>
+<!-- Our Works End -->
+
+
+<!-- counter Up Start -->
+  <!-- <div class="counter_cover bg-primary">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5">
+      <div class="col  p-0">
+        <div class="count_cover">
+          <div class="count_item">
+            <div class="count-item1">
+              <i class='bx bx-calendar-check count_item_icon' ></i>
+              <span class="counter">350</span>
+            </div>
+            <div class="count_item_text">Project Done</div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-0">
+        <div class="count_cover">
+          <div class="count_item">
+            <div class="count-item1">
+              <i class='bx bx-calendar-check count_item_icon' ></i>
+              <span class="counter">350</span>
+            </div>
+            <div class="count_item_text">Project Done</div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-0">
+        <div class="count_cover">
+          <div class="count_item">
+            <div class="count-item1">
+              <i class='bx bx-calendar-check count_item_icon' ></i>
+              <span class="counter">350</span>
+            </div>
+            <div class="count_item_text">Project Done</div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-0">
+        <div class="count_cover">
+          <div class="count_item">
+            <div class="count-item1">
+              <i class='bx bx-calendar-check count_item_icon' ></i>
+              <span class="counter">350</span>
+            </div>
+            <div class="count_item_text">Project Done</div>
+          </div>
+        </div>
+      </div>
+      <div class="col p-0">
+        <div class="count_cover">
+          <div class="count_item">
+            <div class="count-item1">
+              <i class='bx bx-calendar-check count_item_icon' ></i>
+              <span class="counter">350</span>
+            </div>
+            <div class="count_item_text">Project Done</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div> -->
+
+ <!-- <div class="counter_cover">
+   <ul class="counter_cover_ul">
+    <li class="counter_cover_li">
+      <div class="">
+        <i></i>
+        <span class="counter">150</span>
+      </div>
+      <p class="counter_cover_p">Project Done</p>
+    </li>
+    <li class="counter_cover_li">
+      <div class="">
+        <i></i>
+        <span class="counter">150</span>
+      </div>
+      <p class="counter_cover_p">Project Done</p>
+    </li>
+    <li class="counter_cover_li">
+      <div class="">
+        <i></i>
+        <span class="counter">150</span>
+      </div>
+      <p class="counter_cover_p">Project Done</p>
+    </li>
+    <li class="counter_cover_li">
+      <div class="">
+        <i></i>
+        <span class="counter">150</span>
+      </div>
+      <p class="counter_cover_p">Project Done</p>
+    </li>
+    <li class="counter_cover_li">
+      <div class="">
+        <i></i>
+        <span class="counter">150</span>
+      </div>
+      <p class="counter_cover_p">Project Done</p>
+    </li>
+   </ul>
+ </div>  -->
+
+ <div class="counter_cover bg-primary">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 py-5">
+      <div class="col">
+        <div class="item_cover">
+          <i class='bx bx-calendar-check count_item_icon' ></i>
+          <span class="counter text-warning">350</span>
+        <p class="counter_cover_p">Project Done</p>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="item_cover">
+          <i class='bx bx-world count_item_icon'></i>
+          <span class="counter text-warning">82</span>
+        <p class="counter_cover_p">Clients Worldwide</p>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="item_cover">
+          <i class="fas fa-truck count_item_icon"></i>
+          <span class="counter text-warning">165</span>
+        <p class="counter_cover_p">Owned Vechicles</p> 
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="item_cover">
+          <i class='bx bx-trophy count_item_icon'></i>
+          <span class="counter text-warning">184</span>
+        <p class="counter_cover_p">Satisfied Clients</p>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="item_cover">
+          <i class="fas fa-user-friends count_item_icon"></i>
+          <span class="counter text-warning">123</span>
+        <p class="counter_cover_p">People in Team</p> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
+<!-- counter Up End -->
+
+<!-- Blog Start -->
+<div class="blog_main_cover">
+  <div class="container">
+    <div class="common">
+      <div class="line_cover">
+        <div class="line"></div><p class="line_para text-black-50">Our Blogs</p>
+      </div>
+      
+      <div class="title_cover">
+        <h1 class="title_cover_h1 mb-4">Lastest  <span class="text-primary">Max Movers</span> Update</h1>          
+      </div>
+    </div>
+    <div class="blog_card_cover">
+      <div class="row g-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+        <div class="col">
+          <div class="card border-0 bg-light">
+           <div class="blog_img_cover">
+            <img src="resource/img/blog-1.jpg" class="card-img-top img-fluid" alt="...">
+            <div class="img_date ">
+              <span class="img_date_day d-block">
+                19
+              </span>  
+              <span class="img_date_month">Aug</span>
+            </div>
+            <div class="blog_comment bg-primary bg-opacity-75">
+              <div class="comment_author_name ">
+                By : <span class="author_name hover">JAFFER</span>
+              </div>
+              <div class="comment_count hover">
+                Comment : 13
+              </div>
+            </div>
+           </div>
+            <div class="card-body">
+              <h6 class="card_body_h6 hover ">
+                Packing And unpacking
+              </h6>
+              <p class="card-text card_body_p">I'am living on the air in Cincinnati. Cincinnati WKRP. Just two good ol' boys taht th so the of Wouldn't change if they could.</p>
+              <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col mr-0 mr-md-2">
+          <div class="card border-0 bg-light" >
+            <div class="blog_img_cover">
+              <img src="resource/img/blog-2.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="img_date bg-warning">
+                <span class="img_date_day d-block">
+                  23
+                </span>  
+                <span class="img_date_month">Jan</span>
+              </div>
+              <div class="blog_comment bg-primary bg-opacity-75">
+                <div class="comment_author_name ">
+                  By : <span class="author_name hover">JAFFER</span>
+                </div>
+                <div class="comment_count hover">
+                  Comment : 23
+                </div>
+              </div>
+             </div>
+             <div class="card-body">
+              <h6 class="card_body_h6 hover ">
+                international moving process
+              </h6>
+              <p class="card-text card_body_p">I'am living on the air in Cincinnati. Cincinnati WKRP. Just two good ol' boys taht th so the of Wouldn't change if they could.</p>
+              <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card border-0 bg-light" >
+            <div class="blog_img_cover">
+              <img src="resource/img/blog-3.jpg" class="card-img-top img-fluid" alt="...">
+              <div class="img_date bg-warning">
+                <span class="img_date_day d-block">
+                  15
+                </span>  
+                <span class="img_date_month">Jun</span>
+              </div>
+              <div class="blog_comment bg-primary bg-opacity-75">
+                <div class="comment_author_name ">
+                  By : <span class="author_name hover">JAFFER</span>
+                </div>
+                <div class="comment_count hover">
+                  Comment : 27
+                </div>
+              </div>
+             </div>
+             <div class="card-body">
+              <h6 class="card_body_h6 hover ">
+                moving and storage
+              </h6>
+              <p class="card-text card_body_p">I'am living on the air in Cincinnati. Cincinnati WKRP. Just two good ol' boys taht th so the of Wouldn't change if they could.</p>
+              <a class="hover card_body_a" href="#">ReadMore<i class="fas fa-long-arrow-alt-right ms-2"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Blog End -->
+<!-- fa fa-quote-right -->
+
+<!-- clients testimonials Start -->
+<!-- <div class="client bg-light">
+  <div class="container ">
+    <div class="row row-cols-1 row-cols-lg-2 gx-5  ">
+      <div class="slick_vv">
+        <div class="col client1 ">
+          <div class="curstomer ">
+            <div class="client_above">
+              <img class="client_above_img" src="resource/img/curstumer1.jpg" alt="">
+              <p class="client_above_name">Will Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col  client1">
+          <div class="curstomer ">
+            <div class="client_above">
+              <img class="client_above_img" src="resource/img/curstumer1.jpg" alt="">
+              <p class="client_above_name">Will Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+        </div> -->
+  
+        <!-- <div class="col client1 extra">
+          <div class="curstomer ">
+            <div class="client_above">
+              <img class="client_above_img" src="resource/img/curstumer1.jpg" alt="">
+              <p class="client_above_name">Will Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="client bg-light">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="common1">
+        <div class="line_cover">
+          <div class="line"></div><p class="line_para text-black-50 ">Clients Testimonials</p>
+        </div>
+        
+        <div class="title_cover">
+          <h1 class="title_cover_h1 mb-4">Say About  <span class="text-primary">Max Movers</span></h1>          
+        </div>
+      </div>
+      <div class="row  gx-5">
+        <div class="slick_vvv">
+          <div class="col col-12 col-lg-6  cover_col ">
+            <div class="client_above bg-white p-5">
+              <img class="client_above_img" src="resource/img/curstumer1.jpg" alt="">
+              <p class="client_above_name">Will Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-lg-6  cover_col ">
+            <div class="client_above bg-white p-5">
+              <img class="client_above_img" src="resource/img/curstumer2.jpg" alt="">
+              <p class="client_above_name">John Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+          <div class="col col-12 col-lg-6 cover_col ">
+            <div class="client_above bg-white p-5">
+              <img class="client_above_img" src="resource/img/curstumer1.jpg" alt="">
+              <p class="client_above_name">Will Smith</p>
+              <p class="curst text-warning">Curstomer</p>
+              <i class="fa fa-quote-right quote_client text-warning"></i>
+              
+              <p class="client_long_para">
+                Lorem ipsum dolor sit amet consectetur, e consectetur eius? Facere  perferendis beatae, explicabo repellendus quaerat 
+  
+              </p>
+              <div class="star_rating text-warning">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-alt"></i>
+  
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- clients testimonials End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="height: 4000px;"></div>
+    <script src="vendor/vendor/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="vendor/venobox/venobox/venobox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+   <script src="vendor/vendor/slick/slick.min.js"></script>
+<script src="vendor/vendor/wow/wow.js"></script>
+<script src="vendor/vendor/venobox/venobox.min.js"></script>
+
+<!-- counter up plugin -->
+<script src="vendor/vendor/way_point/waypoints-latest-0-g34d9f6d/imakewebthings-waypoints-34d9f6d/lib/jquery.waypoints.min.js"></script>
+<script src="vendor/vendor/counter_up/jquery.counterup.min.js"></script>
+    <script src="resource/js/script.js"></script>
+</body>
+</html>
